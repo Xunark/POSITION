@@ -5,9 +5,10 @@
 }
 .backgaroundimgopacity{
     background-image: url(../imgs/backgroundimg2.jpeg);
+    background-attachment: fixed;
+    position: sticky;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 .backgaroundimgopacity::after{
     content:'';
